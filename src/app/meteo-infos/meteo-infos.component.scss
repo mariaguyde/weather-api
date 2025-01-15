@@ -1,0 +1,67 @@
+@import 'material-icons/iconfont/material-icons.scss';
+
+.meteoContainer{
+    background-color: #F6F4EB;
+    padding: 20px;
+    margin: 80px 30px 30px 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Ubuntu", Arial, sans-serif;
+
+    h1 {
+        font-weight: normal;
+    }
+
+    #meteoContainer_recherche {
+        justify-content: center; 
+        align-items: center;
+        margin-top: 30px;
+        display: flex;
+
+        button {
+            border: none;
+            background-color: transparent;
+        }
+
+        input {
+            border: none;
+            height: 30px;
+            width: 150px;
+            border-radius: 8px;
+            padding: 5px 10px;
+        }
+    
+        #meteoContainer_inputValid {
+            background-color: #4682A9;
+            border-radius: 15px;
+            margin-left: 20px;
+            padding: 5px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+
+    #meteoContainer_infos {
+        margin: 40px auto;
+        width: fit-content;
+        border: solid 1px grey;
+        border-radius: 10px;
+        padding: 24px 63px;
+
+
+        #meteoContainer_infosVille {
+            font-weight: bold;
+            font-size: 25px;
+        }
+    }
+
+
+    #meteoContainer_erreur {
+        margin: 40px 0;
+        
+        p {
+            color: rgb(118, 18, 18);
+        }
+    }
+}

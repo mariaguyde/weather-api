@@ -1,0 +1,18 @@
+<div class="meteoContainer">
+        <h1>Météo des villes</h1>
+        <div id="meteoContainer_recherche">
+            <input type="text" (input)="onChange($event)"/>
+            <button><span class="material-icons md-48" id="meteoContainer_inputValid" (click)="getWeatherInfos(cityName)" (keypress)="getWeatherInfos(cityName)">search</span></button>
+        </div>
+
+        <div id="meteoContainer_infos" *ngIf="!errorStatus">
+            <p id="meteoContainer_infosVille">{{cityInfos.location.name}}</p>
+            <p id="meteoContainer_infosPays">{{cityInfos.location.country}}</p>
+            <p id="meteoContainer_infosTemp">{{cityInfos.current.temp_c}}°C</p>
+        </div>
+    
+    
+        <div id="meteoContainer_erreur" *ngIf="errorStatus">
+            <p>Veuillez renseigner une ville existante</p>
+        </div>
+</div>
