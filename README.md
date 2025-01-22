@@ -1,59 +1,26 @@
 # WeatherAPI
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+Ce projet a pour but de consulter la météo actuelle des grandes villes du monde (ex: Paris, Madrid, Pékin etc..) en anglais.
 
-## Development server
+## Développé avec
+- [Angular](https://angular.dev/)
+- [Weather API](https://www.weatherapi.com/) 
+- [SASS](https://sass-lang.com/)
 
-To start a local development server, run:
+Il a été généré en utilisant [Angular CLI](https://github.com/angular/angular-cli) (version 19.0.7).
 
-```bash
-ng serve
-```
+## Développement local
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Pour visualiser le résultat de ce projet localement, veuillez executer les commandes suivantes dans le dossier du projet : 
 
 ```bash
-ng generate component component-name
+cd weather-api # permet de se déplacer dans le dossier du projet
+npm i # installe les dépendances nécessaires à l'execution du projet
+ng serve # faire tourner le projet sur sa machine
 ```
+Puis rendez vous sur  `http://localhost:4200/` afin de le visualiser.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Hébergement
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Le projet est consultable sans installation grâce à l'hébergement de celui-ci sur GitHub Pages.
+Consultez le site à l'adresse suivante : https://mariaguyde.github.io/weather-api/
