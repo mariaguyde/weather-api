@@ -55,5 +55,15 @@
       "type": "image/png",
       "purpose": "maskable any"
     }
-  ]
+  ],
+  "screenshots": [    
+   {
+
+     "src": "icons/icon-72x72.png",
+      "sizes": "640x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Application"
+    }
+ ]
 }
