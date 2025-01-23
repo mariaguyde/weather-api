@@ -12,6 +12,7 @@ Pour convertir une application web angular en une pwa, j'ai utilisé la dépenda
 - l'update du fichier index.html (ajout du lien vers le manifest et une balise meta pour définir la couleur du thème)
 - l'update du fichier angular.json
 - l'ajout de la dépendance @angular/service-worker (package.json modifié)
+- la création des icons (par défaut une icon du logo Angular)
 
 
 ## Développé avec
