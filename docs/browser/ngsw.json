@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1737637363395,
+  "timestamp": 1737638546376,
   "index": "/weather-api/index.csr.html",
   "assetGroups": [
     {
@@ -63,7 +63,7 @@
     "/weather-api/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/weather-api/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/weather-api/index.csr.html": "479599f80bc60e13ef11861b7d5bda7de3e6290e",
-    "/weather-api/index.html": "c00b3be601fe35887bcd4cf4fa487ebed194c279",
+    "/weather-api/index.html": "ee88f8d901ea29ffd46f494961a2df51c5b17dee",
     "/weather-api/main-EXZX6JFB.js": "34920f219db32b646b5028accebaaa41d0a7a2a4",
     "/weather-api/manifest.webmanifest": "7fd172b25b64ae241ac1bf40e47b27841ac23154",
     "/weather-api/media/material-icons-JLIDJUWE.woff": "e4bb7c1e40d3febee58df963db276b2bf68c117b",
