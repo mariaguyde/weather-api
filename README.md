@@ -24,3 +24,11 @@ Puis rendez vous sur  `http://localhost:4200/` afin de le visualiser.
 
 Le projet est consultable sans installation grâce à l'hébergement de celui-ci sur GitHub Pages.
 Consultez le site à l'adresse suivante : https://mariaguyde.github.io/weather-api/
+
+Pour éviter que la page d'accueil affiche une erreur 404, il faut : 
+- générer le dossier docs (grâce à ng build)
+- copier coller le contenu de docs/browser dans le dossier docs afin que GitHub Pages puisse identifier le index.html
+- push les modifications sur sa branche et choisir celle-ci lors de la configuration du déploiement (voir dans l'onglet Settings du repos du projet)
+
+### Liens utiles
+- [Héberger une app Angular sur GitHub Pages](https://www.gaetanrouzies.com/github-pages-angular) 
