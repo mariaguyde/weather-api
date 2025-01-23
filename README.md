@@ -1,6 +1,18 @@
-# WeatherAPI
+# WeatherAPI (PWA)
 
-Ce projet a pour but de consulter la météo actuelle des grandes villes du monde (ex: Paris, Madrid, Pékin etc..) en anglais.
+Ce projet a pour but de consulter la météo actuelle des grandes villes du monde (ex: Paris, Madrid, Pékin etc..).
+
+## PWA
+
+C'est une PWA (Progressive Web App) donc il est possible de l'installer sur son téléphone.
+Pour convertir une application web angular en une pwa, j'ai utilisé la dépendance [@angular/pwa](https://www.npmjs.com/package/@angular/pwa) afin d'automatiser : 
+- la création des fichiers manifest.webmanifest
+- la création du fichier ngsw-config.json pour le service-worker
+- l'update du fichier app.config.ts (ajout configuration du service worker)
+- l'update du fichier index.html (ajout du lien vers le manifest et une balise meta pour définir la couleur du thème)
+- l'update du fichier angular.json
+- l'ajout de la dépendance @angular/service-worker (package.json modifié)
+
 
 ## Développé avec
 - [Angular](https://angular.dev/)
