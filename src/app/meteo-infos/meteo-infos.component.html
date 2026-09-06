@@ -1,5 +1,5 @@
 <div class="meteoContainer">
-        <h1>Météo des villes</h1>
+        <h1>City Weather</h1>
         <div id="meteoContainer_recherche">
             <input type="text" (input)="onChange($event)"/>
             <button (click)="getWeatherInfos(cityName)" (keydown)="getWeatherInfos(cityName)"><span class="material-icons md-48" id="meteoContainer_inputValid">search</span></button>
@@ -13,6 +13,6 @@
     
     
         <div id="meteoContainer_erreur" *ngIf="errorStatus">
-            <p>Veuillez renseigner une ville existante</p>
+            <p>Please enter an existing city</p>
         </div>
 </div>
