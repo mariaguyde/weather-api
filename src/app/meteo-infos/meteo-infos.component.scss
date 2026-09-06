@@ -1,9 +1,9 @@
 @import 'material-icons/iconfont/material-icons.scss';
 
 .meteoContainer{
-    background-color: #F6F4EB;
+    background-color: rgb(219, 222, 236);
     padding: 20px;
-    margin: 80px 30px 30px 30px;
+    margin: 80px 30%;
     border-radius: 20px;
     text-align: center;
     font-family: "Ubuntu", Arial, sans-serif;
@@ -45,9 +45,10 @@
     #meteoContainer_infos {
         margin: 40px auto;
         width: fit-content;
-        border: solid 1px grey;
         border-radius: 10px;
         padding: 24px 63px;
+        background: white;
+        border: none;
 
 
         #meteoContainer_infosVille {
